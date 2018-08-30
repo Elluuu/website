@@ -1,0 +1,73 @@
+.topnav {
+    background-color: #222;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+.topnav a:hover {
+    background-color: #7E7E7E;
+    color: black;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+.topnav a.active {
+	color: black;
+    background-color: #0DCCDC;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+.header p {
+	color: white;
+	font: bold;
+	font-size: 40px;
+	font-family: 'Kosugi Maru', sans-serif;
+}
+
+.text p {
+	font-family: 'Kosugi Maru', sans-serif;
+	color: white;
+}
+
+.text a:link {
+	color: #7A7A7A;
+}
+
+.text a:visited {
+	color: #7A7A7A;
+}
+
+.text img {
+	position: relative;
+	left: 15%;
+	height: 300px;
+}
+
+.info p {
+	position: fixed;
+	font-family: 'Kosugi Maru', sans-serif;
+	color: #7A7A7A;
+	left: 20%;
+}
+
+.article p {
+	font-family: 'Kosugi Maru', sans-serif;
+	color: white;
+}
+
+.article img {
+	float: right;
+	height: 400px;
+}
